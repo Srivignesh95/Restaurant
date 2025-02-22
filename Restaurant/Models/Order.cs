@@ -33,9 +33,16 @@ namespace Restaurant.Models
         [Required]
         public DateOnly OrderDate { get; set; }
 
+        public int CustomerId { get; set; }
+
         public string CustomerName { get; set; }
 
         public float TotalOrderPrice { get; set; }
+
+        public decimal LastOrderPrice { get; set; }
+
+        public List<OrderItemDto> OrderItems { get; set; } = new();
+        public List<string> LastOrderMenuNames { get; set; } = new List<string>();
 
     }
 
@@ -48,8 +55,10 @@ namespace Restaurant.Models
         [Required]
         public DateOnly OrderDate { get; set; }
 
+        [Required(ErrorMessage = "Customer is required")]
         public int? CustomerId { get; set; }
 
+        public List<AUOrderItemDto> OrderItems { get; set; } = new();
     }
 
 

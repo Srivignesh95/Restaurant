@@ -29,6 +29,12 @@ namespace Restaurant.Models
 
         [Required]
         public float Price { get; set; }
+
+        public string Description { get; set; }
+
+        public int TotalOrders { get; set; }
+
+        public List<OrderDto>? Orders { get; set; } = new List<OrderDto>();
     }
 
     public class AUMenuItemDto

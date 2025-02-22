@@ -39,6 +39,8 @@ namespace Restaurant.Models
     {
         [Key]
         public int OrderItemId { get; set; }
+        public int MenuItemId { get; set; }
+        public int OrderId { get; set; }
 
         public string MenuItemName { get; set; }
 
