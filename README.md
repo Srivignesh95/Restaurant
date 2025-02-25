@@ -4,62 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Restaurant Management System - README</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 40px;
-            color: #333;
-            background-color: #f8f9fa;
-        }
-        h1, h2, h3 {
-            color: #007bff;
-        }
-        h1 {
-            text-align: center;
-        }
-        pre {
-            background: #333;
-            color: #fff;
-            padding: 10px;
-            border-radius: 5px;
-            overflow-x: auto;
-        }
-        code {
-            color: #ffc107;
-        }
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .container {
-            max-width: 900px;
-            margin: auto;
-            padding: 20px;
-            background: white;
-            border-radius: 12px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin-bottom: 5px;
-        }
-    </style>
 </head>
 <body>
 
-<div class="container">
     <h1>Restaurant Management System</h1>
 
     <h2>Project Overview</h2>
     <p>The Restaurant Management System is a web application built using ASP.NET Core MVC that allows restaurant owners to manage customers, orders, and menu items efficiently. The system supports CRUD operations, order tracking, and dynamic sorting for improved usability.</p>
-    
+
     <h2>Features</h2>
     <ul>
         <li>Customer Management: Add, edit, delete, and view customer details.</li>
@@ -146,8 +98,6 @@
         <li>Visual Studio 2022</li>
         <li>Entity Framework Core</li>
     </ul>
-
-</div>
 
 </body>
 </html>
