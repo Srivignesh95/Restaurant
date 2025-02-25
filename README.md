@@ -7,7 +7,6 @@ The Restaurant Management System is a web application built using ASP.NET Core M
 - **Customer Management**: Add, edit, delete, and view customer details.
 - **Order Management**: Create, update, delete, and track orders.
 - **Menu Management**: Manage menu items with descriptions and pricing.
-- **Sorting and Search**: Sort tables dynamically and search customers by phone number.
 - **User-Friendly Interface**: Modern UI with Bootstrap for styling.
 
 ## Technologies Used
@@ -17,9 +16,7 @@ The Restaurant Management System is a web application built using ASP.NET Core M
 - Bootstrap 5
 - JavaScript & jQuery
 
-## Setup Instructions
-
-### Prerequisites
+## Prerequisites
 - .NET 6 SDK
 - SQL Server
 - Visual Studio 2022
